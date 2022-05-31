@@ -1,0 +1,34 @@
+.input__Div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input__Div input {
+  height: 3.5vh;
+  width: 500px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+.input__Div input {
+  height: 3.5vh;
+  width: 500px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+.input__Div input:focus {
+  border: 2px solid #555;
+}
+.input__Div button {
+  /* margin-top: 2.5vh; */
+  padding: 12px 30px;
+  border-radius: 7px;
+  border: none;
+  background-color: #555;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

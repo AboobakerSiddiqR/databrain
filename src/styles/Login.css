@@ -1,0 +1,133 @@
+.Login {
+  align-items: center;
+  display: flex;
+  /* padding: 20px; */
+  height: 100vh;
+  background-color: #d6dbdb;
+  /* width: 100%; */
+}
+.left__img {
+  height: 96vh;
+  width: 50%;
+  /* border-right: 2px solid lightgray; */
+  background-color: #f6f8f8;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 5px;
+  border-radius: 08px;
+}
+.login__img {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  align-self: "center";
+  width: 80%;
+  height: 60vh;
+  margin-top: 12vh;
+}
+.left__img h2 {
+  position: absolute;
+  top: 60vh;
+  left: 16.5%;
+  text-align: center;
+  color: #828686;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.line__one {
+  position: absolute;
+  top: 67.5vh;
+  left: 16%;
+  text-align: center;
+  color: #919898;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.line__two {
+  position: absolute;
+  top: 70vh;
+  left: 15.5%;
+  text-align: center;
+  color: #919898;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.right__content {
+  height: 96vh;
+  margin-right: 20px;
+  flex: 1;
+  background-color: white;
+  border-radius: 08px;
+}
+.login__form {
+  margin-top: 10vh;
+  margin-left: 100px;
+}
+.login__form h2 {
+  color: #1d2323;
+  font-family: sans-serif;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.form__list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vh;
+}
+.form__list p {
+  color: #919898;
+  font-weight: 700;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-bottom: -5px;
+}
+.form__list input {
+  margin-top: 1vh;
+  height: 3.5vh;
+  width: 500px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+.agreement {
+  margin-top: 2vh;
+  align-items: center;
+  /* justify-content: center; */
+  display: flex;
+}
+.agreement input {
+  width: 20px;
+  height: 20px;
+  border: 1px solid lightgray;
+}
+.agreement input:hover {
+  color: #919898;
+}
+.agreement input:checked {
+  width: 20px;
+  height: 20px;
+  /* background-color: white; */
+}
+.agreement p {
+  padding-left: 10px;
+}
+.login__form button {
+  margin-top: 2.5vh;
+  padding: 12px 30px;
+  border-radius: 7px;
+  border: none;
+  background-color: #5da9ee;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.login__form button:hover {
+  background-color: #0455ee;
+}
+.error__text {
+  font-size: 10px;
+}

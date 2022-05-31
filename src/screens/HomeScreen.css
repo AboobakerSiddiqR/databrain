@@ -1,0 +1,13 @@
+.button {
+  position: absolute;
+  margin-top: 60vh;
+  right: 30%;
+  padding: 12px 30px;
+  border-radius: 7px;
+  border: none;
+  background-color: #5da9ee;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
